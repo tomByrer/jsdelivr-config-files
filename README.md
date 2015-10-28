@@ -32,6 +32,8 @@ Details @ https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md
 $
 ```
 
+After you edited the files, upload them to [jsDelivr CDN repo](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md#web-interface-recommended).  If you want to automate the removal of local files:
+
 
 ```sh
 $ jsdelivr-configs -cleanup
