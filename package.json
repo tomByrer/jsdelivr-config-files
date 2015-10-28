@@ -1,0 +1,34 @@
+{
+  "name": "jsdelivr-config-files",
+  "description": "CLI to quickly fill in files needed for jsDelivr CDN hosting.",
+  "version": "0.2.0",
+	"keywords": [
+		"jsdelivr", "cdn", "cli"
+	],
+  "homepage": "https://github.com/tombyrer/jsdelivr-config-files",
+  "author": {
+    "name": "Tom Byrer",
+    "url": "https://github.com/tomByrer"
+  },
+  "preferGlobal": true,
+  "license":  "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tombyrer/jsdelivr-config-files.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tombyrer/jsdelivr-config-files/issues"
+  },
+  "dependencies": {
+    "minimist": "^1.1.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {"jsdelivr-configs": "./index.js"},
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}

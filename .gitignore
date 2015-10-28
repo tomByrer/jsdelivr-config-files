@@ -1,0 +1,20 @@
+*.DS_Store
+*.log
+node_modules
+tmp
+vendor
+/node_modules
+.*
+!.gitignore
+!.npmignore
+!.travis.yml
+
+#local `npm pack`
+*.tgz
+
+#editors
+*.sublime-*
+.idea
+jsconfig.json
+tsconfig.json
+settings.json
