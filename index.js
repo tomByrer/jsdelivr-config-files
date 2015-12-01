@@ -47,10 +47,10 @@ mainfile = "<primary-minified.js|css>"`;
       console.log(`${fn} not updated since no changes were needed`)
     } else {
       // ensure ignores are clumped together
-	    ignore.delete("#jsDelivr CDN configuations: info.ini & update.json")
+	    ignore.delete("#jsDelivr CDN configurations: info.ini & update.json")
       ignore.delete("info.ini")
       ignore.delete("update.json")
-			ignore.add("#jsDelivr CDN configuations: info.ini & update.json")
+			ignore.add("#jsDelivr CDN configurations: info.ini & update.json")
       ignore.add("info.ini")
       ignore.add("update.json")
       writeSet(fn, ignore)
@@ -74,7 +74,7 @@ Details @ https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md
 
   function removeIgnores(fn) {
     let ignore = new Set( read(fn).toString().split("\n") )
-    ignore.delete("#jsDelivr CDN configuations: info.ini & update.json")
+    ignore.delete("#jsDelivr CDN configurations: info.ini & update.json")
     ignore.delete("info.ini")
     ignore.delete("update.json")
     writeSet(fn, ignore)

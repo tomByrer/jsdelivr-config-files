@@ -1,7 +1,7 @@
 {
   "name": "jsdelivr-config-files",
   "description": "CLI to quickly fill in files needed for jsDelivr CDN hosting.",
-  "version": "0.2.0",
+  "version": "0.2.1",
 	"keywords": [
 		"jsdelivr", "cdn", "cli"
 	],
