@@ -13,7 +13,7 @@ argv.cleanup = argv.c || argv.cleanup
 */
 if (!argv.cleanup) {
   let packageInfo = JSON.parse( read("package.json") )
-  const REPO = packageInfo.repository.url.replace("git://github.com/","").replace(".git","")
+  const REPO = packageInfo.repository.url.replace("git:","http:").replace(".git","")
 
   /* info.ini */
   let infoINI = `author = "${packageInfo.author.name}"

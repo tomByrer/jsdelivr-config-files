@@ -46,6 +46,11 @@ Should reply like this:
 $
 ```
 
+## Change log
+
+* 0.3.0
+  + fixed missing `http://github.com/` in `repository.url`
+
 ## Contributing
 
 Stars welcome.
@@ -67,4 +72,3 @@ Licensed under the MIT license.
 
 ## Thanks
 * [readme-generator](https://github.com/tombyrer/readme-generator)
-
